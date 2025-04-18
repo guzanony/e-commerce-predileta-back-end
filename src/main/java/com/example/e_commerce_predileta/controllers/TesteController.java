@@ -11,7 +11,7 @@ public class TesteController {
       return "Endpoint test";
     }
 
-    @GetMapping("/")
+    @GetMapping("/testeNovo")
     public String Home() {
         return "Home";
     }
